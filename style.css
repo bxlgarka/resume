@@ -1,0 +1,45 @@
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+
+header {
+    margin-bottom: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    width: max-content;
+    background-color: #d1d1d138;
+    border: 3px #000000 solid;
+}
+
+main {
+    background-color: #d1d1d138;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3em;
+    padding-right: 10em;
+    border: 3px #000000 solid;
+    border-radius: 10px;
+    width: max-content;
+}
+
+main a {
+    text-decoration: none;
+}
+
+i {
+    margin-left: 8em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
